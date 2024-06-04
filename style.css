@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "main";
+  src:
+    url(assets/Jrhand.ttf)}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #39455f;
+  background-image: url("assets/icon0.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url("assets/tape2.png") ;
+  padding: 80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 3px 50px -30px 50px;
+  text-align: center;
+  color: #b60202;
+  font-family: "main";
+  font-size: 50px;
+  line-height: 40px;
+  mix-blend-mode: multiply;
+  width: 80%;
+  max-width: 700px;
+  transform: rotate(-3deg)
+  
+}
+
+h2{
+  margin: 20px 20px;
+  text-align: center;
+  color: #b60202;
+  font-family: "main";
+  font-size: 28px;
+  mix-blend-mode: multiply;
+}
+
+h2:hover, h2:active{
+  transition: .2s;
+  color: #232f3e;
+}
+
+a{
+  color:#c51616;
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  color:white;
+  transition: .2s;
+}
+
+p{
+  color:white;
+  letter-spacing:.3px;
+  line-height: 28px;
+  max-width: 800px;
+  font-size: 15px;
+  margin: 5px 40px;
+}
+
+a, p, li, button, footer{
+  font-family: "stevie-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.button {
+  text-align: center;
+  background-image: url("assets/sticker.png");
+  color: #f2f2f2;
+  font-size: 20px;
+  background-size: contain;
+  background-position: center;
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+  transform: rotate(1deg);
+  line-height: 25px;
+  
+}
+
+
+
+
+footer {
+  font-size: 20px;
+  font-family: "main";
+  color: #b60202;
+  mix-blend-mode: multiply;
+}
