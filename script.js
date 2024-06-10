@@ -1,4 +1,6 @@
-emails = ["comments@whitehouse.gov", "publicinfo@nlrb.gov"];
+emails = [
+  // "comments@whitehouse.gov",
+          "publicinfo@nlrb.gov"];
 
 subject = "Issue a Bargaining Order Against Amazon";
 
