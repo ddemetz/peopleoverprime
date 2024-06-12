@@ -103,6 +103,7 @@ a, p, li, button, footer{
 }
 
 .button {
+  cursor: pointer;
   text-align: center;
   background-image: url("assets/sticker.png");
   color: #f2f2f2;
@@ -124,4 +125,15 @@ footer {
   font-family: "main";
   color: #b60202;
   mix-blend-mode: multiply;
+}
+
+@media only screen and (max-width: 560px) {
+  h1{
+    font-size: 35px;
+    margin: 3px 10px -30px 10px;
+    line-height: 30px;
+    }
+  #header{
+    padding: 10px;
+  }
 }
